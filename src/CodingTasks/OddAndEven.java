@@ -8,6 +8,15 @@ public class OddAndEven {
                identify(5) -> "odd"
                identify(6) -> "Even"
          */
-        // You should create a method with the task
+
+        int num = 15;
+
+
+        if (num % 2 == 0) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd number");
+        }
+
     }
 }
