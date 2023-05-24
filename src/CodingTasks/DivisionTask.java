@@ -1,10 +1,21 @@
 package CodingTasks;
 
 public class DivisionTask {
-    public static void main(String[] args) {
-        /*
-        Divide without this operator: /
-        Write a method that can divide two numbers without using division operator
-         */
+        public static int DivisionTask( int num1, int num2){
+
+            int count = 0;
+
+            while ((num1 > 0)) {
+                num1 = num1 - num2;
+                count++;
+            }
+            return count;
+
+        }
+
+        public static void main (String[]args){
+            System.out.println(DivisionTask(6, 2));
+        }
     }
-}
+
+
