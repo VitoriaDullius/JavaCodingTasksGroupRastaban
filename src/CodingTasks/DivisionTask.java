@@ -7,7 +7,6 @@ public class DivisionTask {
         Write a method that can divide two numbers without using division operator
          */
 
-
         int n1 = 13;
         int n2 = 4;
         int result= 0;
