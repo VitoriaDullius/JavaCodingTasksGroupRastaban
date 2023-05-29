@@ -1,4 +1,4 @@
-package CodingTasks;
+package CodingTasks.week1;
 
 public class DivisionTask {
     public static void main(String[] args) {
