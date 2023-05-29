@@ -4,14 +4,26 @@ public class OddOrEven {
 
     public static void main(String[] args) {
 
-        int num = 5;
+        int num = 6;
 
-        if(num % 2 == 0){
+       /* if(num % 2 == 0){
             System.out.println(num + " is even number");
         }if(num % 2 != 0) {
             System.out.println(num + " is odd number");
-        }
+        }*/
 
+        OddOrEven(num);
+
+    }
+
+    public static void OddOrEven(int num) {
+
+        if (num % 2 == 0) {
+            System.out.println(num + " is even number");
+        }
+        if (num % 2 != 0) {
+            System.out.println(num + " is odd number");
+        }
     }
 }
 /*
