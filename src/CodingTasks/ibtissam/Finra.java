@@ -4,7 +4,7 @@ public class Finra {
 
     public static void main(String[] args) {
 
-        int number = 10;
+      /*  int number = 10;
 
         if (number %3 == 0  && number % 5 == 0){
             System.out.println("FINRA");
@@ -14,10 +14,26 @@ public class Finra {
 
         }else if (number % 5 == 0){
             System.out.println("RA");
-        }
+        }*/
+        finra(10);
 
 
     }
+
+    public static void finra(int num){
+
+        String result = "";
+        if (num % 3 ==0  && num % 5 == 0){
+            result = "FINRA";
+        }else if (num % 3 == 0){
+            result = "FIN";
+        } else if (num% 5 == 0) {
+            result = "RA";
+
+        }
+        System.out.println(result);
+    }
+
 
 }
 /*
