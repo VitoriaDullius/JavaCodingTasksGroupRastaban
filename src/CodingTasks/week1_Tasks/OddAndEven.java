@@ -1,4 +1,4 @@
-package CodingTasks;
+package CodingTasks.week1_Tasks;
 
 public class OddAndEven {
     public static void main(String[] args) {

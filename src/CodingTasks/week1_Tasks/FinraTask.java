@@ -1,4 +1,4 @@
-package CodingTasks;
+package CodingTasks.week1_Tasks;
 
 import java.util.ArrayList;
 
