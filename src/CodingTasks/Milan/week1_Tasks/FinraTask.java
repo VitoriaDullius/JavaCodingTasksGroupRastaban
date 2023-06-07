@@ -1,6 +1,4 @@
-package CodingTasks.week1_Tasks;
-
-import java.util.ArrayList;
+package CodingTasks.Milan.week1_Tasks;
 
 public class FinraTask {
     public static void main(String[] args) {

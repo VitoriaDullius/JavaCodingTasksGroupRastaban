@@ -1,4 +1,4 @@
-package CodingTasks.week2_Tasks;
+package CodingTasks.Milan.week2_Tasks;
 
 public class SwapTwoNumbers {
 
