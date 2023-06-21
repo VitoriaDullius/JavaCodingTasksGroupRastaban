@@ -1,4 +1,4 @@
-package CodingTasks;
+package CodingTasks.week1;
 
 public class OddAndEven {
     public static void main(String[] args) {
@@ -8,5 +8,6 @@ public class OddAndEven {
                identify(5) -> "odd"
                identify(6) -> "Even"
          */
+        // You should create a method with the task
     }
 }
